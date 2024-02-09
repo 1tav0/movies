@@ -10,6 +10,7 @@ import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
 import java.util.List;
 
+// This is our movie model
 @Document(collection = "movies")  //let the framework know this is a document class
 @Data // make use of lombok package, this class is a data class
 @AllArgsConstructor // that is able to create an object with a constructor with all those args
